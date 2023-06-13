@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website for you</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="Developers">
+    <script src="index.js"></script>
+<div class="big">
+    <div class="top">
+        <img class="Logo" src="tumdav.jpg" alt="Logo">
+        <p class="tumdav"><span class="WebYou">WebYou</span><br>Treasure the moments, thank God</p>
+    </div>
+    <div id="links">
+        <div id="Clients">
+        <input type="button" onclick="clients()" value="A Website just for You">
+        </div>
+        <div id="JoinUs">
+        <input type="button" onclick="developers()" value="Develop with Us">
+        </div>
+        <div id="Home">
+        <input type="button" onclick="home()" value="Home">
+        </div>
+    </div>
+</div>
+
+    <H1>Hello there Developer, Welcome!</H1>
+    <br>
+    <form method="post" action="" id="developerform">
+        <div id="containers">
+            <div class="container1">
+                <div class="Nameandlabel"><label for="Name">Name</label>
+                    <input type="text" size="38.8px" name="Name" id="Name" required>
+                </div>
+            
+                <div class="Emailandlabel">
+                    <label for="Email">Email</label>
+                    <input type="text" size="38.5px" name="Email" id="Email" required>
+                </div>
+            </div>
+            <br><br>
+            <div class="container2">
+                <div>
+                    <label for="Country">Country</label>
+                    <input type="text" name="Country" id="Country" required>
+                </div>
+                <div>
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="tel" size="38.5px" name="Phone_Number" id="Phone_Number" required>
+                </div>
+            </div>
+            <br><br>
+            <div class="container3">
+            
+                <label for="Purpose">Please tell us about yourself:</label><br>
+                <textarea name="Details" cols="121" rows="10" id="Details" required></textarea>
+            </div>
+           
+            <br>
+            <br><br>
+            <div class="container4">
+                Please state your web dev skill set:
+                <input type="text" size="32.5px" name="Period" id="Period" required>
+            </div>
+            <br><br>
+            <div class="container5">
+                <div>
+                    <label for="Budget">How much do you charge per project?</label>
+                </div>
+            <div>
+                <label for="Currency">Currency:</label>
+                <input type="text" name="Currency" id="Currency" required>
+            </div>
+            <div>
+                <label for="Amount">Amount:</label>
+                <input type="number" name="Amount" id="Amount" required></div>
+            </div>
+            <br><br>
+            <div class="submit">
+                <button type="submit" value="Submit" onclick="doItAgain()">Submit</button>
+            </div>
+        
+            <br><br><br>
+        </div>
+    </form>
+
+</body>
+</html>
